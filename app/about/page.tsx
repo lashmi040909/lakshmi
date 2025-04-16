@@ -1,4 +1,10 @@
-import { Navigation } from "@/components/navigation"
+'use client'; // 添加这行作为文件第一行
+
+import { useState } from 'react';
+
+export default function AboutPage() {
+  const [state, setState] = useState(); 
+}import { Navigation } from "@/components/navigation"
 import Image from "next/image"
 import { useState } from "react"
 
